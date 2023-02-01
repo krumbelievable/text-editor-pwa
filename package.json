@@ -1,0 +1,35 @@
+{
+  "name": "jate",
+  "version": "1.0.0",
+  "description": "Text editor",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run build\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server node server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd client && npm install",
+    "client": "cd client && npm start",
+    "heroku-prebuild": "npm install --dev"
+  },
+  "keywords": [],
+  "author": "Christian Quarles",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisld50/PWA-Text-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chrisld50/PWA-Text-Editor/issues"
+  },
+  "homepage": "https://github.com/Chrisld50/PWA-Text-Editor#readme"
+}
