@@ -6,7 +6,7 @@ I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 
 # Installation
-* Clone repository: git clone https://github.com/Chrisld50/PWA-Text-Editor
+* Clone repository: git clone https://github.com/krumbelievable/text-editor-pwa
 * All NPM packages needed for this application are already listed as dependencies in the package.json file. Run the command 'npm install' in your terminal at the root directory to install the packages. 
 * to generate the webpage, run the command npm run start:dev.
 * To start the server type in npm run start in the terminal. The terminal will respond stating it is running on port 3000.
@@ -30,4 +30,3 @@ SO THAT I can reliably retrieve them for later use
 
 
 # Link 
-https://pwatexteditor123.herokuapp.com/
